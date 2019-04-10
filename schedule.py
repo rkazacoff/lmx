@@ -18,11 +18,11 @@ def game_init():
     for x in game_list:
         games = games + ('<tr>',x[0], '\t', x[1],'</tr>', '/n')
 
-        #print(x)
+        print(x)
 
-    return games
+    #return games
 
-
+game_init()
 #print('\n'.join(str(x) for x in game_list))
 #return ('\n'.join(str(x) for x in game_list))
 #print (title, '\n'.join(str(x) for x in game_list))
